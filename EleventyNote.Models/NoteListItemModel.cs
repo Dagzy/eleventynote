@@ -14,6 +14,9 @@ namespace EleventyNote.Models
 
         public string Title { get; set; }
 
+        [UIHint("Starred")]
+        public bool IsStarred { get; set; }
+
         public DateTime CreatedUtc { get; set; }
 
         public DateTime? ModifiedUtc { get; set; }
